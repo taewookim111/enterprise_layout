@@ -1,0 +1,173 @@
+#brand {
+    width: 100%;
+    padding: 200px 0;
+    background-color: #eee;
+}
+
+#brand .inner {
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#brand .inner h1 {
+    font: bold 24px/1 "arial";
+    color: #555;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#brand .inner .wrap {
+    width: 100%;
+}
+
+/* 첫번째 article */
+#brand .inner .wrap article:nth-of-type(1) {
+    width: 380px;
+    height: 620px;
+    background-color: #444;
+    float: left;
+    text-align: center;
+    padding: 170px 20px 0;
+    
+    margin-right: 20px;
+}
+
+#brand .inner .wrap article:nth-of-type(1) i {
+    font-size: 100px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#brand .inner .wrap article:nth-of-type(1) h2 {
+    font: bold 20px/1 "arial";
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#brand .inner .wrap article:nth-of-type(1) p {
+    font: 14px/1.3 "arial";
+    color: #999;
+    margin-bottom: 30px;
+}
+
+#brand .inner .wrap article:nth-of-type(1) a {
+    display: block;
+    width: 150px;
+    height: 30px;
+    font: 11px/30px "arial";
+    color: #ddd;
+    border: 1px solid #bbb;
+    margin: 0 auto;
+}
+
+/* 두번째 article */
+#brand .inner .wrap article:nth-of-type(2) {
+    width: 380px;
+    height: 300px;
+    float: left;
+}
+
+#brand .inner .wrap article:nth-of-type(2) img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 세번째 article */
+#brand .inner .wrap article:nth-of-type(3) {
+    width: 380px;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+}
+
+#brand .inner .wrap article:nth-of-type(3) img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 네번째 article */
+#brand .inner .wrap article:nth-of-type(4) {
+    width: 780px;
+    height: 300px;
+    float: left;
+    margin-top: 20px;
+}
+
+#brand .inner .wrap article:nth-of-type(4) img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1179px) {
+        #brand{
+            padding: 100px 20px;
+        }
+
+        #brand .inner{
+            width: 100%;
+        }
+ 
+         /* 첫 번째 article */
+        #brand .inner .wrap article:nth-of-type(1){
+            width: 49%;
+            margin-right: 2%;
+            margin-bottom: 20px;
+        }
+
+         /* 두번째 article  */
+        #brand .inner .wrap article:nth-of-type(2) {
+        width: 49%;
+        margin-bottom: 20px;
+        }
+
+         /* 세번째 article  */
+        #brand .inner .wrap article:nth-of-type(3) {
+        width: 49%;
+        margin-left: 0px;
+        margin-bottom: 5px;
+        }
+
+         /* 네번째 article  */
+        #brand .inner .wrap article:nth-of-type(4) {
+            width: 100%;
+            margin-bottom: 20px;
+}
+
+@media screen and (max-width:450px) {
+      /* 첫 번째 article */
+      #brand .inner .wrap article:nth-of-type(1){
+        width: 100%;
+        margin-right: 0%;
+        margin-bottom: 20px;
+    }
+
+     /* 두번째 article  */
+    #brand .inner .wrap article:nth-of-type(2) {
+    width: 100%;
+    margin-bottom: 20px;
+    }
+
+     /* 세번째 article  */
+    #brand .inner .wrap article:nth-of-type(3) {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    }
+
+     /* 네번째 article  */
+    #brand .inner .wrap article:nth-of-type(4) {
+        width: 100%;
+        margin-bottom: 20px;
+
+}
+    #brand .inner .wrap article:nth-of-type(1) a {
+    width: 50vw;
+    
+}
+    
+}
+}
